@@ -77,8 +77,13 @@ nav li a {
     padding: 15px 0;
 }
 
-.about ul {
+.contact ul {
     width: 100%;
     line-height: 1.5rem;
     font-size: 1.1rem;
+}
+
+.contact li {
+    display: inline-block;
+    padding: 0 10px;
 }
