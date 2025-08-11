@@ -1,0 +1,67 @@
+html, body {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    margin-top: 60px; /* To prevent content from being hidden behind the fixed header */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Header navbar */
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: #1a1a1a;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+/* Name styling */
+h1 {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / span 1;
+    width: 100%;
+    /* line-height: 60px; */
+    position: relative;
+    text-align: left;
+    padding-left: 60%;
+    font-size: 2rem;
+    color: white;
+}
+
+nav {
+    grid-column: 2 / span 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul {
+    padding-right: 15%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
