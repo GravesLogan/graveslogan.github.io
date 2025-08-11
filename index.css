@@ -2,6 +2,9 @@ html, body {
     font-family: 'Oswald', sans-serif;
 }
 
+body {
+    margin-top: 60px; /* To prevent content from being hidden behind the fixed header */
+}
 
 * {
   margin: 0;
@@ -71,9 +74,10 @@ nav li a {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 500px;
+    /* height: 500px; */
     margin:0 auto;
-    margin-top: 30px;
+    padding: 15px 0;
+    /* margin-top: 30px; */
 }
 
 .about h2 {
@@ -85,7 +89,7 @@ nav li a {
     display: block;
     width: 100%;
     line-height: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* Projects section */
@@ -93,11 +97,12 @@ nav li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 50%;
     height: auto;
     margin:0 auto;
-    margin-top: 30px;
+    padding: 15px 0;
+    /* margin-top: 30px; */
 }
 
 .projects h2 {
@@ -105,20 +110,38 @@ nav li a {
     width: 100%;
 }
 
+.projects li {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.projects li:hover {
+    cursor: pointer;
+}
+
+.projects li section {
+    display: none;
+    padding: 10px 0;
+}
 
 /* Skills section */
 .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 50%;
     height: auto;
     margin:0 auto;
-    margin-top: 30px;
+    padding: 15px 0;
 }
 
 .skills h2 {
     display: block;
     width: 100%;
+}
+
+.skills li {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
