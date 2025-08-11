@@ -79,6 +79,8 @@ nav li a {
 
 .contact ul {
     width: 100%;
+    display: flex;
+    justify-content: center;
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
