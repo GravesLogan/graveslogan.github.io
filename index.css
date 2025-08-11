@@ -67,6 +67,7 @@ nav li a {
 
 .about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -78,10 +79,46 @@ nav li a {
 .about h2 {
     display: block;
     width: 100%;
-    text-align: left;
 }
 
 .about p {
+    display: block;
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* Projects section */
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.projects h2 {
+    display: block;
+    width: 100%;
+}
+
+
+/* Skills section */
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.skills h2 {
     display: block;
     width: 100%;
 }
