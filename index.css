@@ -1,7 +1,13 @@
-html {
-    padding: 0;
-    margin: 0;
+html, body {
+    font-family: 'Oswald', sans-serif;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 
 /* Header navbar */
@@ -21,11 +27,14 @@ header {
 
 /* Name styling */
 h1 {
+    display: flex;
+    align-items: center;
     grid-column: 1 / span 1;
     width: 100%;
+    /* line-height: 60px; */
     position: relative;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 60%;
     font-size: 2rem;
     color: white;
 }
@@ -44,7 +53,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 0 10x;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -52,4 +61,27 @@ nav li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+/* About me section */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.about h2 {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.about p {
+    display: block;
+    width: 100%;
 }
