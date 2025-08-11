@@ -65,3 +65,20 @@ nav li a {
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin:0 auto;
+    padding: 15px 0;
+}
+
+.about ul {
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
